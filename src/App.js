@@ -10,8 +10,15 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyBDobKZVJnQix04A_uZwJRYT6NZ7uD6SvQ",
+  authDomain: "remootodchat.firebaseapp.com",
+  projectId: "remootodchat",
+  storageBucket: "remootodchat.appspot.com",
+  messagingSenderId: "389614965943",
+  appId: "1:389614965943:web:c87931b2ce1fc47d2e6932",
+  measurementId: "G-JXZ01JX00S"
 })
+/////
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
